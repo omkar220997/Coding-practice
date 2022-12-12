@@ -44,7 +44,7 @@ namespace Calculator
             Console.WriteLine($"the square of {a} is : " + sqr);
             return sqr;
         }
-        public double  sqruareRoot (double a)
+        public double  squareRoot (double a)
         {
             double sqrt=Math.Sqrt(a);
             Console.WriteLine($"the square root of {a}  is : " + sqrt);
