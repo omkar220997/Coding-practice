@@ -19,7 +19,7 @@ namespace Calculator
 
             Console.WriteLine("Enter second digit : ");
             string bstr = Console.ReadLine();
-            double b = Convert.ToDouble(astr);
+            double b = Convert.ToDouble(bstr);
 
             operation oprtn = new operation();
             switch (opr)
